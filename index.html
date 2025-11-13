@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>To-Do List</title>
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="checkListDiv">
+        <i class="fa-solid fa-list-check checkListIcone"></i>
+      </div>
+      <div class="titleText">Plan Up</div>
+    </header>
+    <main class="mainDiv">
+      <section class="welcomSection">
+        <h1 class="welcomText">
+          Welcom to <span class="planTextInWelcom">Plan Up</span>
+        </h1>
+        <p class="WelcomParagraph">
+          Your ultimate task management solution. Stay organized, manage your
+          time<br />
+          effectively, and boost your productivity with our intuitive platform.
+        </p>
+      </section>
+      <section class="cardSection">
+        <div class="cardDiv">
+          <div class="cardIconeStyleDiv">
+            <i class="far fa-check-circle"></i>
+          </div>
+          <h2>Task Management</h2>
+          <p class="paraghraphIncardDiv">
+            Create, organize and complete your tasks efficiently
+          </p>
+        </div>
+        <div class="cardDiv">
+          <div class="cardIconeStyleDiv">
+            <i class="fa-solid fa-rocket"></i>
+          </div>
+          <h2>Boost Productivity</h2>
+          <p class="paraghraphIncardDiv">
+            Focus on what truly matters and get more done every day.
+          </p>
+        </div>
+        <div class="cardDiv">
+          <div class="cardIconeStyleDiv">
+            <i class="fa-solid fa-arrows-to-circle"></i>
+          </div>
+          <h2 class="titleIncardDiv">Stay Focused</h2>
+          <p class="paraghraphIncardDiv">
+            Keep track of your progress and achieve your goals
+          </p>
+        </div>
+      </section>
+      <section class="newAndMangeTaskSection">
+        <section class="addNewTaskSection">
+          <div class="TitleInTaskSection">
+            <i class="fa-solid fa-plus newTaskIcone"></i>
+            <p>Add New Task</p>
+          </div>
+          <form>
+            <input
+              id="inputTaskField"
+              type="text"
+              placeholder="Enter your task here!"
+            />
+            <button type="submit" class="btnSubmitTask">
+              <i class="fa-solid fa-plus"></i>
+              Add Task
+            </button>
+          </form>
+        </section>
+        <section class="manageTaskSection">
+          <div class="TitleInTaskSection">
+            <i class="fa-solid fa-plus newTaskIcone"></i>
+            <p>Task Management</p>
+          </div>
+          <nav class="tabSwitcher">
+            <button class="tabSwitcherBtn">
+              <div class="tabSwitcherBtnDiv">
+                <i class="fa-solid fa-list-check"></i>
+                <span>All tasks</span>
+              </div>
+            </button>
+            <button class="tabSwitcherBtn">
+              <div class="tabSwitcherBtnDiv">
+                <i class="fa-solid fa-clock"></i>
+                <span>Pending</span>
+              </div>
+            </button>
+            <button class="tabSwitcherBtn">
+              <div class="tabSwitcherBtnDiv">
+                <i class="fa-solid fa-clipboard-check"></i>
+                <span> Completed</span>
+              </div>
+            </button>
+          </nav>
+        </section>
+      </section>
+      <!-- <div class="Task management"></div> -->
+    </main>
+  </body>
+</html>
